@@ -19,5 +19,8 @@ namespace Google.Maps.Direction
 
 		[JsonProperty("overview_polyline")]
 		public Polyline OverviewPolyline { get; set; }
+
+		[JsonProperty("waypoint_order")]
+		public int[] WaypointOrder { get; set; }
 	}
 }
